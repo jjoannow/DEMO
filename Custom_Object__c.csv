@@ -1,1 +1,6 @@
-Guid,Name,custom_object_picklist__c,Task__c
+Guid,Name,custom_object_picklist__c,Task__c,test__c
+10ffa5b9-471b-47b0-a318-3e2b46f5b39b,11.22,#N/A,#N/A,#N/A
+3d18fa20-f89d-4db7-8c6c-f3a57b78fc02,Test,#N/A,#N/A,#N/A
+f723c7cc-5124-4fab-b0f5-06f1f33860a6,test,#N/A,#N/A,#N/A
+75c93f0c-a4d5-4dce-88d3-fa87ed172da1,11/29,#N/A,#N/A,#N/A
+4d060728-1975-4951-b811-62a9897c17d0,11.28 B No,no,#N/A,#N/A
