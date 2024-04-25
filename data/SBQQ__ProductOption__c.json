@@ -20,7 +20,7 @@
     "SBQQ__MinQuantity__c": "#N/A",
     "SBQQ__Number__c": "2.0",
     "SBQQ__OptionalSKU__c": "af760ef4-14ea-4e8e-bfa1-5524fc3e21ba",
-    "SBQQ__QuantityEditable__c": "false",
+    "SBQQ__QuantityEditable__c": "true",
     "SBQQ__Quantity__c": "#N/A",
     "SBQQ__QuoteLineVisibility__c": "#N/A",
     "SBQQ__Required__c": "false",
