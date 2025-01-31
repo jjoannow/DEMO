@@ -3,6 +3,7 @@
     <fullName>ccrz__CustomField2__c</fullName>
     <deprecated>false</deprecated>
     <externalId>false</externalId>
+    <inlineHelpText>Help Text Added</inlineHelpText>
     <label>Custom Field 2</label>
     <length>255</length>
     <required>false</required>
