@@ -5,12 +5,12 @@
         <name>RevOps_Queue</name>
         <label>RevOps Queue</label>
         <locationX>176</locationX>
-        <locationY>311</locationY>
+        <locationY>395</locationY>
         <assignmentItems>
             <assignToReference>$Record.OwnerId</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>RevOpsQueue</elementReference>
+                <elementReference>Get_RevOps_Queue_Record_Id.Id</elementReference>
             </value>
         </assignmentItems>
     </assignments>
@@ -44,11 +44,39 @@
         </value>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_RevOps_Queue_Record_Id</name>
+        <label>Get RevOps Queue Record Id</label>
+        <locationX>176</locationX>
+        <locationY>287</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>RevOps_Queue</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Name</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>RevOps</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Type</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Queue</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Group</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
     <start>
         <locationX>50</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>RevOps_Queue</targetReference>
+            <targetReference>Get_RevOps_Queue_Record_Id</targetReference>
         </connector>
         <object>ChangeRequest</object>
         <recordTriggerType>Create</recordTriggerType>
