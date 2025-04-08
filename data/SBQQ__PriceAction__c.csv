@@ -69,4 +69,3 @@ a356f62e-6a04-4732-b5e0-8ca3055da0f8,99,59f0d13b-54e1-4105-8fbd-233f6895f5b2,SBQ
 d658c5c1-54e0-44cf-badc-f88875568d4a,102,808b5fa3-de52-4491-863f-0275290e7330,Discretionary_Discount_Percent__c,"100.0 * if( SBQQ__RegularPrice__c =0, 0, ( SBQQ__NetPrice__c -SBQQ__RegularPrice__c)/(-1.0 * SBQQ__RegularPrice__c))",1.0,false,Approval_Threshold__c,true,#N/A,#N/A,Quote Line,#N/A,#N/A
 3cf67919-0aba-4875-a595-d85e897fd25f,103,e2386a0e-0582-4297-b2b8-051f6aafede2,Discount (Amt),#N/A,#N/A,false,SBQQ__LookupData__c,true,#N/A,#N/A,Quote Line,#N/A,10
 9e2c640f-51f8-480c-b614-6857ca76a16f,105,4de28982-cbd1-43d4-968e-734bce182721,Discount (%),#N/A,#N/A,false,#N/A,true,#N/A,#N/A,Quote Line,#N/A,50
-e1129caa-8939-4850-85c2-d4dacfff642c,106,05c6049b-7583-4711-9ba8-ced65c8580f7,Discount (%),#N/A,#N/A,false,#N/A,true,#N/A,#N/A,Quote Line,#N/A,30
