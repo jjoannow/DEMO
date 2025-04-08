@@ -12,7 +12,6 @@ a22808b5-9a41-41a2-89e1-11f8aa2a41fe,Auto Renewal Uplift of 4%,false,#N/A,All,#N
 e2386a0e-0582-4297-b2b8-051f6aafede2,Discount Configuration,false,#N/A,Any,#N/A,On Calculate,#N/A,SBQQ__LookupData__c,Calculator
 b601ae13-4e23-406e-acf0-c992037728f9,Services Promotion,false,#N/A,All,#N/A,On Calculate,#N/A,#N/A,Calculator
 f355b1a3-4073-4a01-bcc9-90496e9186e0,**Prodly Price Rule,false,#N/A,Any,#N/A,On Calculate,#N/A,SBQQ__LookupData__c,Calculator
-4ca2961b-7724-44b7-96f2-8a55c03ae7ae,Lookup Approval Level 3 [Discount],false,#N/A,Any,#N/A,On Initialization,53.0,Approval_Threshold__c,Calculator
 f179679d-0dd2-47d5-b9fd-63a8c18aae33,Lookup Approval Level 2 [Discount],false,#N/A,All,#N/A,On Initialization,51.0,Approval_Threshold__c,Calculator
 808b5fa3-de52-4491-863f-0275290e7330,Lookup Approval Level [Discount],false,#N/A,All,#N/A,On Initialization;Before Calculate;On Calculate;After Calculate,99.0,Approval_Threshold__c,Calculator
 c03b4be9-4f92-46b5-8b67-bb809c9379f9,Set Professional Services Role Rates,false,#N/A,All,#N/A,On Calculate,#N/A,Professional_Services_Rate__c,Calculator
@@ -88,4 +87,3 @@ d9d7be23-e9f6-482f-8eff-d6d6f45c16ab,Set Professional Services Role Rates,false,
 082262fa-9c47-4f73-8af8-46d4bc9c22c3,test,false,#N/A,Any,#N/A,On Calculate,#N/A,#N/A,Calculator
 ddb3d1e0-36d0-422e-bbfd-a66a8ca92cbf,test2,false,#N/A,Any,#N/A,On Calculate,#N/A,#N/A,Calculator
 ab5548ee-a50d-4b6d-ab90-f3fe0669e6ed,test3,false,#N/A,All,#N/A,On Calculate,#N/A,#N/A,Calculator
-05c6049b-7583-4711-9ba8-ced65c8580f7,1/22 Price Rule,false,#N/A,Any,#N/A,On Calculate,#N/A,#N/A,Calculator
