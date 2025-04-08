@@ -1,5 +1,4 @@
 Guid,Name,SBQQ__LookupField__c,SBQQ__MatchType__c,SBQQ__Operator__c,SBQQ__ParentRuleIsActive__c,SBQQ__PriceRule2__c,SBQQ__ProductRule__c,SBQQ__RuleLookupObject__c,SBQQ__RuleTargetsCalculator__c,SBQQ__TestedField__c,SBQQ__TestedObject__c,SBQQ__TestedValue__c
-57ce9a0d-af00-43be-81bb-b00058e19ee4,0,Approval_Level__c,Static Value,equals,false,4ca2961b-7724-44b7-96f2-8a55c03ae7ae,#N/A,Approval_Threshold__c,true,#N/A,#N/A,3
 b784634d-8335-497f-9491-7decc1dab173,1,Approval_Level__c,Static Value,equals,false,f179679d-0dd2-47d5-b9fd-63a8c18aae33,#N/A,Approval_Threshold__c,true,#N/A,#N/A,2
 d585f22a-a77c-4d3e-94c9-0675c6cc428d,2,Threshold_Type__c,Static Value,equals,false,808b5fa3-de52-4491-863f-0275290e7330,#N/A,Approval_Threshold__c,true,#N/A,#N/A,Discount
 49c59b3f-b132-4225-8722-cb59d754e91a,3,Resource_Location__c,Field Value,equals,false,c03b4be9-4f92-46b5-8b67-bb809c9379f9,#N/A,Professional_Services_Rate__c,true,Resource_Location__c,Quote Line,#N/A
@@ -26,7 +25,6 @@ f4b598e1-381c-4406-b05a-3eb100f4dad9,23,Lower_Bound_Percent__c,Field Value,great
 45eebf1d-ac08-4616-b703-96eeaf0f94ab,24,Role__c,Field Value,equals,false,d5a0d090-8751-40fd-8a63-13af320d4f17,#N/A,Professional_Services_Rate__c,true,SBQQ__Product__c,Quote Line,#N/A
 2e09241c-aa1a-433b-a5d1-98841b8e85d2,25,Resource_Location__c,Field Value,equals,false,341d60d1-5365-4fcb-a356-a52b2b38e157,#N/A,Professional_Services_Rate__c,true,Resource_Location__c,Quote Line,#N/A
 c2b22e38-5dcf-42d9-9e4e-e72529b8c9db,26,Approval_Level__c,Static Value,equals,false,db6197ac-388a-4af7-92d0-c84458a2b0a3,#N/A,Approval_Threshold__c,true,#N/A,#N/A,3
-7d56a515-7711-4498-8f8b-880c39f99cc1,27,Product__c,Field Value,equals,false,4ca2961b-7724-44b7-96f2-8a55c03ae7ae,#N/A,Approval_Threshold__c,true,SBQQ__Product__c,Quote Line,#N/A
 16d98824-6eb3-4c83-9cea-e6ac9bac529b,28,Approval_Level__c,Static Value,equals,false,c71d095b-3473-4d5f-b3b0-62735f85ca51,#N/A,Approval_Threshold__c,true,#N/A,#N/A,1
 bb21ef85-10b7-4e0c-86e4-1fbc421160ae,29,Approval_Level__c,Static Value,equals,false,da447496-4e6f-4a7d-8a15-72732109a2a1,#N/A,Approval_Threshold__c,true,#N/A,#N/A,3
 c3aef19a-6547-478c-ab48-361bdfa5a1af,30,Product__c,Field Value,equals,false,ec524a03-1e8a-4ee6-8247-591b7d5d6da0,#N/A,Approval_Threshold__c,true,SBQQ__Product__c,Quote Line,#N/A
